@@ -27,3 +27,9 @@ summary(ctrl)
 boxplot(ctrl)
 
 ```
+
+Session info
+
+```{r sessioninfo}
+sesionInfo()
+```
