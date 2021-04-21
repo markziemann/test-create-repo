@@ -1,0 +1,43 @@
+---
+title: "cars"
+author: "Mark Ziemann"
+date: "21/04/2021"
+output: html_document
+---
+
+## Question 2
+
+look at the cars dataset
+
+```{r cars}
+summary(cars)
+str(cars)
+head(cars)
+```
+
+Make a plot of speed (x) vs distance (y).
+
+```{r plot}
+
+mylm <- lm(cars$dist ~ cars$speed)
+mylm
+
+plot(cars$speed,cars$dist)
+abline(mylm)
+
+```
+
+Now find the Pearson correlation coeficient
+
+```{r correl}
+
+cor(cars$speed,cars$dist)
+cor.test(cars$speed,cars$dist)
+
+```
+
+Session information
+
+```{r sessioninfo}
+sessionInfo()
+```

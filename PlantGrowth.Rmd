@@ -1,0 +1,27 @@
+---
+title: "PlantGrowth.Rmd"
+author: "Mark Ziemann"
+date: "21/04/2021"
+output: html_document
+---
+
+## Introduction
+
+In this exercise we are analysing the built-in PlantGrowth dataset.
+
+First we will have a look at the data structure.
+
+```{r plantgrowth1}
+
+head(PlantGrowth)
+str(PlantGrowth)
+
+```
+
+Subset ctrl, trt1 and trt2 into separate objects.
+
+```{r }
+
+
+
+```
