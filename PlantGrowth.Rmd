@@ -22,6 +22,8 @@ Subset ctrl, trt1 and trt2 into separate objects.
 
 ```{r }
 
-
+ctrl <- subset(PlantGrowth,group=="ctrl")
+summary(ctrl)
+boxplot(ctrl)
 
 ```
